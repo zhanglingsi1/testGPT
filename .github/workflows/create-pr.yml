@@ -23,8 +23,8 @@ jobs:
       - name: generate UI
         env:
           GH_TOKEN: "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"
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          WHITELIST: ${{ secrets.WHITELIST }}
+          OPENAI_API_KEY: "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"
+          WHITELIST: "zhanglingsi1"
           CONFIG: ${{ vars.CONFIG }}
           ACTOR: ${{ github.actor }}
         run: deno run -A prompts/entry.ts
