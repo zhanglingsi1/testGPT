@@ -22,7 +22,7 @@ jobs:
           deno-version: 1.38.3
       - name: generate UI
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: "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"
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           WHITELIST: ${{ secrets.WHITELIST }}
           CONFIG: ${{ vars.CONFIG }}
